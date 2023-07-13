@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Start Serving Customers</name>
+   <tag></tag>
+   <elementGuidId>eb1d2951-b0fc-435d-8d58-028bf46098db</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-0']/cbs-message-dialog/mat-dialog-actions/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.fsize22</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>c1699721-d698-46ac-be9a-edd8241306db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fsize22</value>
+      <webElementGuid>9c60bb83-b8a5-43d3-a8ea-83b8fc8caf0a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Start Serving Customers</value>
+      <webElementGuid>4298f8a4-6fa4-4704-84b8-0aaa9535a8dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-0&quot;)/cbs-message-dialog[@class=&quot;ng-star-inserted&quot;]/mat-dialog-actions[@class=&quot;modal-footer centerVertHor mat-dialog-actions ng-star-inserted&quot;]/p[@class=&quot;fsize22&quot;]</value>
+      <webElementGuid>3166f002-2e6d-4df0-bfc6-73cd5e3503d0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-0']/cbs-message-dialog/mat-dialog-actions/p</value>
+      <webElementGuid>1860da7a-997c-4928-a890-997806566410</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='notifications_active'])[2]/following::p[1]</value>
+      <webElementGuid>b5d26227-77ae-4e0c-b96b-50decfeb7c45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Start Serving Customers']/parent::*</value>
+      <webElementGuid>93b31bb4-3228-436f-aba2-480cb664b315</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-dialog-actions/p</value>
+      <webElementGuid>02546832-cd3b-4d11-8814-0e4d077b928f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Start Serving Customers' or . = 'Start Serving Customers')]</value>
+      <webElementGuid>a5f458d6-f095-4ce0-bb13-e71771da915d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

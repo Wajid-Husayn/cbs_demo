@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="169.142" tests="3" failures="2" errors="0">
+   <testsuite name="Login" tests="3" failures="2" errors="0" time="169.142" skipped="0" timestamp="2023-07-13 12:50:25" hostname="Wajid - DESKTOP-RTPNA8E" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Wajid\\git\\cbs_demo\\Reports\\20230713_125023\\Login\\20230713_125023"/>
+         <property name="logFiles" value="C:\\Users\\Wajid\\git\\cbs_demo\\Reports\\20230713_125023\\Login\\20230713_125023\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Wajid\\git\\cbs_demo\\Reports\\20230713_125023\\Login\\20230713_125023\\1689234777670.png, C:\\Users\\Wajid\\git\\cbs_demo\\Reports\\20230713_125023\\Login\\20230713_125023\\1689234794676.png"/>
+         <property name="hostName" value="Wajid - DESKTOP-RTPNA8E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Firefox 115.0"/>
+         <property name="hostAddress" value="192.168.8.105"/>
+         <property name="sessionId" value="599ff849-422a-4acf-baf1-c4e576f059e1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Logging/Login Passed" time="151.762" classname="Test Cases/Logging/Login Passed" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Logging/Login Passed FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Cbs/p_Start Serving Customers'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Login Passed.run(Login Passed:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689234623490.run(TempTestSuite1689234623490.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Cbs/p_Start Serving Customers' located by '//mat-dialog-container[@id='mat-dialog-0']/cbs-message-dialog/mat-dialog-actions/p' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-07-13 12:50:26 - [TEST_CASE][FAILED] - Test Cases/Logging/Login Passed: Test Cases/Logging/Login Passed FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Cbs/p_Start Serving Customers'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Login Passed.run(Login Passed:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689234623490.run(TempTestSuite1689234623490.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Cbs/p_Start Serving Customers' located by '//mat-dialog-container[@id='mat-dialog-0']/cbs-message-dialog/mat-dialog-actions/p' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-07-13 12:50:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-13 12:50:26 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-13 12:50:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-13 12:50:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-13 12:50:29 - [TEST_STEP][PASSED] - navigateToUrl("http://192.168.8.33:7003/cbs9/login.html"): Navigate to 'http://192.168.8.33:7003/cbs9/login.html' successfully
+
+2023-07-13 12:50:30 - [MESSAGE][PASSED] - Navigate to 'http://192.168.8.33:7003/cbs9/login.html' successfully
+
+2023-07-13 12:50:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-13 12:50:30 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-13 12:50:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_Silverlake Symmetri CBS9/input_Faysal Bank Limited_j_username")): Object: 'Object Repository/Page_Silverlake Symmetri CBS9/input_Faysal Bank Limited_j_username' is clicked on
+
+2023-07-13 12:50:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Silverlake Symmetri CBS9/input_Faysal Bank Limited_j_username' is clicked on
+
+2023-07-13 12:50:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Silverlake Symmetri CBS9/input_Faysal Bank Limited_j_username"), "cbs.user1"): Text 'cbs.user1' is set on object 'Object Repository/Page_Silverlake Symmetri CBS9/input_Faysal Bank Limited_j_username'
+
+2023-07-13 12:50:31 - [MESSAGE][PASSED] - Text 'cbs.user1' is set on object 'Object Repository/Page_Silverlake Symmetri CBS9/input_Faysal Bank Limited_j_username'
+
+2023-07-13 12:50:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_Silverlake Symmetri CBS9/input_Username_j_password")): Object: 'Object Repository/Page_Silverlake Symmetri CBS9/input_Username_j_password' is clicked on
+
+2023-07-13 12:50:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Silverlake Symmetri CBS9/input_Username_j_password' is clicked on
+
+2023-07-13 12:50:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Silverlake Symmetri CBS9/input_Username_j_password"), "Go4mjZEPWYNpMeH1G75+Qw=="): Text ****** has been set on object 'Object Repository/Page_Silverlake Symmetri CBS9/input_Username_j_password'
+
+2023-07-13 12:50:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Silverlake Symmetri CBS9/input_Username_j_password'
+
+2023-07-13 12:50:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Silverlake Symmetri CBS9/span_Login")): Object: 'Object Repository/Page_Silverlake Symmetri CBS9/span_Login' is clicked on
+
+2023-07-13 12:51:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Silverlake Symmetri CBS9/span_Login' is clicked on
+
+2023-07-13 12:51:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_Cbs/p_Start Serving Customers"), 60): Web element with id: 'Object Repository/Page_Cbs/p_Start Serving Customers' located by '//mat-dialog-container[@id='mat-dialog-0']/cbs-message-dialog/mat-dialog-actions/p' not found
+
+2023-07-13 12:52:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-dialog-container[@id='mat-dialog-0']/cbs-message-dialog/mat-dialog-actions/p'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-07-13 12:52:26 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Cbs/p_Start Serving Customers' located by '//mat-dialog-container[@id='mat-dialog-0']/cbs-message-dialog/mat-dialog-actions/p' not found
+
+2023-07-13 12:52:26 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_Cbs/p_Start Serving Customers")): Unable to click on object 'Object Repository/Page_Cbs/p_Start Serving Customers' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Cbs/p_Start Serving Customers'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Login Passed.run(Login Passed:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689234623490.run(TempTestSuite1689234623490.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Cbs/p_Start Serving Customers' located by '//mat-dialog-container[@id='mat-dialog-0']/cbs-message-dialog/mat-dialog-actions/p' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1689230593847.run(Script1689230593847.groovy:40)
+	... 13 more
+)
+
+2023-07-13 12:52:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-dialog-container[@id='mat-dialog-0']/cbs-message-dialog/mat-dialog-actions/p'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-07-13 12:52:57 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Cbs/p_Start Serving Customers' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Cbs/p_Start Serving Customers'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Login Passed.run(Login Passed:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689234623490.run(TempTestSuite1689234623490.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Cbs/p_Start Serving Customers' located by '//mat-dialog-container[@id='mat-dialog-0']/cbs-message-dialog/mat-dialog-actions/p' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1689230593847.run(Script1689230593847.groovy:40)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Wajid\\git\\cbs_demo\\Reports\\20230713_125023\\Login\\20230713_125023\\1689234777670.png]]]]></system-out>
+         <system-err><![CDATA[2023-07-13 12:50:26 - [TEST_CASE][FAILED] - Test Cases/Logging/Login Passed: Test Cases/Logging/Login Passed FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Cbs/p_Start Serving Customers'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Login Passed.run(Login Passed:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689234623490.run(TempTestSuite1689234623490.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Cbs/p_Start Serving Customers' located by '//mat-dialog-container[@id='mat-dialog-0']/cbs-message-dialog/mat-dialog-actions/p' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logging/Login Failed" time="8.547" classname="Test Cases/Logging/Login Failed" status="PASSED">
+         <system-out><![CDATA[2023-07-13 12:52:57 - [TEST_CASE][PASSED] - Test Cases/Logging/Login Failed: Test Cases/Logging/Login Failed
+
+2023-07-13 12:52:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-13 12:52:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-13 12:52:59 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-13 12:52:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-13 12:53:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-13 12:53:01 - [TEST_STEP][PASSED] - navigateToUrl("http://192.168.8.33:7003/cbs9/login.html"): Navigate to 'http://192.168.8.33:7003/cbs9/login.html' successfully
+
+2023-07-13 12:53:02 - [MESSAGE][PASSED] - Navigate to 'http://192.168.8.33:7003/cbs9/login.html' successfully
+
+2023-07-13 12:53:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-13 12:53:02 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-13 12:53:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Silverlake Symmetri CBS9/input_Faysal Bank Limited_j_username")): Object: 'Object Repository/Page_Silverlake Symmetri CBS9/input_Faysal Bank Limited_j_username' is clicked on
+
+2023-07-13 12:53:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Silverlake Symmetri CBS9/input_Faysal Bank Limited_j_username' is clicked on
+
+2023-07-13 12:53:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Silverlake Symmetri CBS9/input_Faysal Bank Limited_j_username"), "cbs.user1"): Text 'cbs.user1' is set on object 'Object Repository/Page_Silverlake Symmetri CBS9/input_Faysal Bank Limited_j_username'
+
+2023-07-13 12:53:04 - [MESSAGE][PASSED] - Text 'cbs.user1' is set on object 'Object Repository/Page_Silverlake Symmetri CBS9/input_Faysal Bank Limited_j_username'
+
+2023-07-13 12:53:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Silverlake Symmetri CBS9/input_Username_j_password")): Object: 'Object Repository/Page_Silverlake Symmetri CBS9/input_Username_j_password' is clicked on
+
+2023-07-13 12:53:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Silverlake Symmetri CBS9/input_Username_j_password' is clicked on
+
+2023-07-13 12:53:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Silverlake Symmetri CBS9/input_Username_j_password"), "5zEOG9P+0xVVVXi82UQ77cTu98lJn33i"): Text ****** has been set on object 'Object Repository/Page_Silverlake Symmetri CBS9/input_Username_j_password'
+
+2023-07-13 12:53:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Silverlake Symmetri CBS9/input_Username_j_password'
+
+2023-07-13 12:53:04 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Silverlake Symmetri CBS9/button_Login"), 20): Object 'Object Repository/Page_Silverlake Symmetri CBS9/button_Login' is visible
+
+2023-07-13 12:53:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Silverlake Symmetri CBS9/button_Login' is visible
+
+2023-07-13 12:53:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Silverlake Symmetri CBS9/button_Login")): Object: 'Object Repository/Page_Silverlake Symmetri CBS9/button_Login' is clicked on
+
+2023-07-13 12:53:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Silverlake Symmetri CBS9/button_Login' is clicked on
+
+2023-07-13 12:53:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Silverlake Symmetri CBS9/p_Invalid Credentials"), "Invalid Credentials!"): Actual text and expected text of test object 'Object Repository/Page_Silverlake Symmetri CBS9/p_Invalid Credentials' are matched.
+
+2023-07-13 12:53:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Silverlake Symmetri CBS9/p_Invalid Credentials' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logging/Login Element Not Found" time="8.619" classname="Test Cases/Logging/Login Element Not Found" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Logging/Login Element Not Found FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Login Element Not Found.run(Login Element Not Found:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689234623490.run(TempTestSuite1689234623490.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-07-13 12:53:06 - [TEST_CASE][FAILED] - Test Cases/Logging/Login Element Not Found: Test Cases/Logging/Login Element Not Found FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Login Element Not Found.run(Login Element Not Found:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689234623490.run(TempTestSuite1689234623490.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-07-13 12:53:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-13 12:53:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-13 12:53:09 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-13 12:53:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-13 12:53:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-13 12:53:11 - [TEST_STEP][PASSED] - navigateToUrl("http://192.168.8.33:7003/cbs9/login.html"): Navigate to 'http://192.168.8.33:7003/cbs9/login.html' successfully
+
+2023-07-13 12:53:12 - [MESSAGE][PASSED] - Navigate to 'http://192.168.8.33:7003/cbs9/login.html' successfully
+
+2023-07-13 12:53:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-13 12:53:12 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-13 12:53:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Silverlake Symmetri CBS9/input_Faysal Bank Limited_j_username")): Object: 'Object Repository/Page_Silverlake Symmetri CBS9/input_Faysal Bank Limited_j_username' is clicked on
+
+2023-07-13 12:53:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Silverlake Symmetri CBS9/input_Faysal Bank Limited_j_username' is clicked on
+
+2023-07-13 12:53:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Silverlake Symmetri CBS9/input_Faysal Bank Limited_j_username"), "cbs.user1"): Text 'cbs.user1' is set on object 'Object Repository/Page_Silverlake Symmetri CBS9/input_Faysal Bank Limited_j_username'
+
+2023-07-13 12:53:13 - [MESSAGE][PASSED] - Text 'cbs.user1' is set on object 'Object Repository/Page_Silverlake Symmetri CBS9/input_Faysal Bank Limited_j_username'
+
+2023-07-13 12:53:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Silverlake Symmetri CBS9/input_Username_j_password")): Object: 'Object Repository/Page_Silverlake Symmetri CBS9/input_Username_j_password' is clicked on
+
+2023-07-13 12:53:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Silverlake Symmetri CBS9/input_Username_j_password' is clicked on
+
+2023-07-13 12:53:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Silverlake Symmetri CBS9/input_Username_j_password"), "Go4mjZEPWYNpMeH1G75+Qw=="): Text ****** has been set on object 'Object Repository/Page_Silverlake Symmetri CBS9/input_Username_j_password'
+
+2023-07-13 12:53:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Silverlake Symmetri CBS9/input_Username_j_password'
+
+2023-07-13 12:53:14 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_Silverlake Symmetri CBS9/button_Log")): Unable to click on object (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Login Element Not Found.run(Login Element Not Found:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689234623490.run(TempTestSuite1689234623490.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1689233860511.run(Script1689233860511.groovy:34)
+	... 13 more
+)
+
+2023-07-13 12:53:14 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_Silverlake Symmetri CBS9/button_Log' does not exist
+
+2023-07-13 12:53:14 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2023-07-13 12:53:15 - [MESSAGE][FAILED] - Unable to click on object (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Login Element Not Found.run(Login Element Not Found:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689234623490.run(TempTestSuite1689234623490.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1689233860511.run(Script1689233860511.groovy:34)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Wajid\\git\\cbs_demo\\Reports\\20230713_125023\\Login\\20230713_125023\\1689234794676.png]]]]></system-out>
+         <system-err><![CDATA[2023-07-13 12:53:06 - [TEST_CASE][FAILED] - Test Cases/Logging/Login Element Not Found: Test Cases/Logging/Login Element Not Found FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Login Element Not Found.run(Login Element Not Found:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689234623490.run(TempTestSuite1689234623490.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-13 12:50:25 - [TEST_SUITE][FAILED] - Login: Test Cases/Logging/Login Passed FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Cbs/p_Start Serving Customers'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Login Passed.run(Login Passed:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689234623490.run(TempTestSuite1689234623490.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Cbs/p_Start Serving Customers' located by '//mat-dialog-container[@id='mat-dialog-0']/cbs-message-dialog/mat-dialog-actions/p' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-07-13 12:50:25 - [TEST_SUITE][FAILED] - Login: Test Cases/Logging/Login Passed FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Cbs/p_Start Serving Customers'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Login Passed.run(Login Passed:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689234623490.run(TempTestSuite1689234623490.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Cbs/p_Start Serving Customers' located by '//mat-dialog-container[@id='mat-dialog-0']/cbs-message-dialog/mat-dialog-actions/p' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

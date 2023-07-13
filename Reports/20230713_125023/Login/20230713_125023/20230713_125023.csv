@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Firefox 115.0,,,2023-07-13 12:50:25,2023-07-13 12:53:15,2m - 49.142s,FAILED
+,,,,,,,
+Test Cases/Logging/Login Passed,Firefox 115.0,,,2023-07-13 12:50:26,2023-07-13 12:52:57,2m - 31.762s,FAILED
+"openBrowser("""")",Firefox 115.0,,,2023-07-13 12:50:26,2023-07-13 12:50:29,3.457s,PASSED
+"navigateToUrl(""http://192.168.8.33:7003/cbs9/login.html"")",Firefox 115.0,,,2023-07-13 12:50:29,2023-07-13 12:50:30,0.618s,PASSED
+maximizeWindow(),Firefox 115.0,,,2023-07-13 12:50:30,2023-07-13 12:50:30,0.031s,PASSED
+"click(findTestObject(""Page_Silverlake Symmetri CBS9/input_Faysal Bank Limited_j_username""))",Firefox 115.0,,,2023-07-13 12:50:30,2023-07-13 12:50:31,0.744s,PASSED
+"setText(findTestObject(""Object Repository/Page_Silverlake Symmetri CBS9/input_Faysal Bank Limited_j_username""), ""cbs.user1"")",Firefox 115.0,,,2023-07-13 12:50:31,2023-07-13 12:50:31,0.622s,PASSED
+"click(findTestObject(""Page_Silverlake Symmetri CBS9/input_Username_j_password""))",Firefox 115.0,,,2023-07-13 12:50:31,2023-07-13 12:50:32,0.519s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Silverlake Symmetri CBS9/input_Username_j_password""), ""Go4mjZEPWYNpMeH1G75+Qw=="")",Firefox 115.0,,,2023-07-13 12:50:32,2023-07-13 12:50:32,0.361s,PASSED
+"click(findTestObject(""Object Repository/Page_Silverlake Symmetri CBS9/span_Login""))",Firefox 115.0,,,2023-07-13 12:50:32,2023-07-13 12:51:25,52.592s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_Cbs/p_Start Serving Customers""), 60)",Firefox 115.0,,,2023-07-13 12:51:25,2023-07-13 12:52:26,1m - 1.202s,PASSED
+"click(findTestObject(""Object Repository/Page_Cbs/p_Start Serving Customers""))",Firefox 115.0,,,2023-07-13 12:52:26,2023-07-13 12:52:57,31.366s,FAILED
+,,,,,,,
+Test Cases/Logging/Login Failed,Firefox 115.0,,,2023-07-13 12:52:57,2023-07-13 12:53:06,8.547s,PASSED
+"openBrowser("""")",Firefox 115.0,,,2023-07-13 12:52:58,2023-07-13 12:53:01,3.617s,PASSED
+"navigateToUrl(""http://192.168.8.33:7003/cbs9/login.html"")",Firefox 115.0,,,2023-07-13 12:53:01,2023-07-13 12:53:02,1.054s,PASSED
+maximizeWindow(),Firefox 115.0,,,2023-07-13 12:53:02,2023-07-13 12:53:02,0.032s,PASSED
+"click(findTestObject(""Object Repository/Page_Silverlake Symmetri CBS9/input_Faysal Bank Limited_j_username""))",Firefox 115.0,,,2023-07-13 12:53:02,2023-07-13 12:53:03,0.779s,PASSED
+"setText(findTestObject(""Object Repository/Page_Silverlake Symmetri CBS9/input_Faysal Bank Limited_j_username""), ""cbs.user1"")",Firefox 115.0,,,2023-07-13 12:53:03,2023-07-13 12:53:04,0.601s,PASSED
+"click(findTestObject(""Object Repository/Page_Silverlake Symmetri CBS9/input_Username_j_password""))",Firefox 115.0,,,2023-07-13 12:53:04,2023-07-13 12:53:04,0.530s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Silverlake Symmetri CBS9/input_Username_j_password""), ""5zEOG9P+0xVVVXi82UQ77cTu98lJn33i"")",Firefox 115.0,,,2023-07-13 12:53:04,2023-07-13 12:53:04,0.334s,PASSED
+"waitForElementVisible(findTestObject(""Page_Silverlake Symmetri CBS9/button_Login""), 20)",Firefox 115.0,,,2023-07-13 12:53:04,2023-07-13 12:53:05,0.482s,PASSED
+"click(findTestObject(""Object Repository/Page_Silverlake Symmetri CBS9/button_Login""))",Firefox 115.0,,,2023-07-13 12:53:05,2023-07-13 12:53:05,0.448s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Silverlake Symmetri CBS9/p_Invalid Credentials""), ""Invalid Credentials!"")",Firefox 115.0,,,2023-07-13 12:53:05,2023-07-13 12:53:06,0.469s,PASSED
+,,,,,,,
+Test Cases/Logging/Login Element Not Found,Firefox 115.0,,,2023-07-13 12:53:06,2023-07-13 12:53:15,8.619s,FAILED
+"openBrowser("""")",Firefox 115.0,,,2023-07-13 12:53:06,2023-07-13 12:53:11,5.156s,PASSED
+"navigateToUrl(""http://192.168.8.33:7003/cbs9/login.html"")",Firefox 115.0,,,2023-07-13 12:53:11,2023-07-13 12:53:12,0.576s,PASSED
+maximizeWindow(),Firefox 115.0,,,2023-07-13 12:53:12,2023-07-13 12:53:12,0.014s,PASSED
+"click(findTestObject(""Object Repository/Page_Silverlake Symmetri CBS9/input_Faysal Bank Limited_j_username""))",Firefox 115.0,,,2023-07-13 12:53:12,2023-07-13 12:53:13,0.788s,PASSED
+"setText(findTestObject(""Object Repository/Page_Silverlake Symmetri CBS9/input_Faysal Bank Limited_j_username""), ""cbs.user1"")",Firefox 115.0,,,2023-07-13 12:53:13,2023-07-13 12:53:13,0.602s,PASSED
+"click(findTestObject(""Object Repository/Page_Silverlake Symmetri CBS9/input_Username_j_password""))",Firefox 115.0,,,2023-07-13 12:53:13,2023-07-13 12:53:14,0.525s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Silverlake Symmetri CBS9/input_Username_j_password""), ""Go4mjZEPWYNpMeH1G75+Qw=="")",Firefox 115.0,,,2023-07-13 12:53:14,2023-07-13 12:53:14,0.331s,PASSED
+"click(findTestObject(""Object Repository/Page_Silverlake Symmetri CBS9/button_Log""))",Firefox 115.0,,,2023-07-13 12:53:14,2023-07-13 12:53:15,0.334s,FAILED
