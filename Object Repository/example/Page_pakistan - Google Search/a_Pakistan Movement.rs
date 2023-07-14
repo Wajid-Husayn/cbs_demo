@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Pakistan Movement</name>
+   <tag></tag>
+   <elementGuidId>e3a655c8-d6d7-4db8-aec7-d014fc6b6c7a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='rso']/div/div/div/div/div[5]/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.HiHjCd > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>439b0bc1-1f2f-4641-ada0-02a84d42f919</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://en.wikipedia.org/wiki/Pakistan_Movement</value>
+      <webElementGuid>2ab8aeac-f2fc-464c-bb89-20217a37b435</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ping</name>
+      <type>Main</type>
+      <value>/url?sa=t&amp;source=web&amp;rct=j&amp;opi=89978449&amp;url=https://en.wikipedia.org/wiki/Pakistan_Movement&amp;ved=2ahUKEwjgo5ydwIuAAxVN_bsIHe5LDA8Q0gIoAHoECBsQAQ</value>
+      <webElementGuid>180f4f29-dcfa-411f-8a85-e288993c8464</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pakistan Movement</value>
+      <webElementGuid>049652cf-4e3b-4ce8-8d96-fe6f34143892</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;rso&quot;)/div[@class=&quot;hlcw0c&quot;]/div[@class=&quot;MjjYud&quot;]/div[@class=&quot;g Ww4FFb vt6azd tF2Cxc asEBEc&quot;]/div[@class=&quot;GLI8Bc UK95Uc&quot;]/div[@class=&quot;Z26q7c UK95Uc VGXe8&quot;]/div[@class=&quot;HiHjCd&quot;]/a[1]</value>
+      <webElementGuid>86b36fd3-b6d7-4015-9811-d4588bb00eed</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rso']/div/div/div/div/div[5]/div/a</value>
+      <webElementGuid>ceab1db8-bcc3-425f-95c7-5f29b869bb95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Pakistan Movement')]</value>
+      <webElementGuid>8d056d6f-6fa9-47d9-91be-97e0b8ca7fcd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pakistani'])[1]/following::a[1]</value>
+      <webElementGuid>15ce9668-5c9b-4686-b7e3-38d128b2ba9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Punjab, Pakistan'])[1]/preceding::a[1]</value>
+      <webElementGuid>881f5ce2-0695-4c0a-ad68-6aec00111fd7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Balochistan, Pakistan'])[1]/preceding::a[2]</value>
+      <webElementGuid>ae236a05-fd13-4d77-ac6e-66205f6534fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pakistan Movement']/parent::*</value>
+      <webElementGuid>15d15c50-a6c7-4c59-958d-fdce9d2b9b21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://en.wikipedia.org/wiki/Pakistan_Movement')]</value>
+      <webElementGuid>436df77c-79fe-4c7e-96ab-de713b124a3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div/div[5]/div/a</value>
+      <webElementGuid>969920a4-4bbf-43d8-95c3-b3132be9baf8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://en.wikipedia.org/wiki/Pakistan_Movement' and (text() = 'Pakistan Movement' or . = 'Pakistan Movement')]</value>
+      <webElementGuid>745c26ec-2e83-4cdb-b017-5db7cfbdda32</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

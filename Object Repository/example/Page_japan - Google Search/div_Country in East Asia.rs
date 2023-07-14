@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Country in East Asia</name>
+   <tag></tag>
+   <elementGuidId>f167bd9b-f5d8-4f80-af34-fdd0379692e5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='rcnt']/div[2]/div/div/div[3]/div/div/div/div/div/div/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.wx62f.PZPZlf.x7XAkb</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1ad7abb3-3f3c-4197-bd78-0083e5bb2e67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wx62f PZPZlf x7XAkb</value>
+      <webElementGuid>6d177af6-d8b4-4485-a7c9-13e736eb6aa3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-attrid</name>
+      <type>Main</type>
+      <value>subtitle</value>
+      <webElementGuid>5dcb75bd-d763-4ea6-89f2-df10482c600f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Country in East Asia</value>
+      <webElementGuid>e05b2281-658a-4777-bebd-08ec7134597e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;rcnt&quot;)/div[@class=&quot;XqFnDf&quot;]/div[1]/div[@class=&quot;kp-wholepage-osrp n4H9Ud&quot;]/div[@class=&quot;HdbW6 MjUjnf VM6qJ&quot;]/div[@class=&quot;hHq9Z&quot;]/div[1]/div[@class=&quot;gyEfO&quot;]/div[@class=&quot;wDYxhc NFQFxe viOShc LKPcQc&quot;]/div[@class=&quot;ZxoDOe yGdMVd&quot;]/div[@class=&quot;UFE1qd&quot;]/div[@class=&quot;EGmpye&quot;]/div[@class=&quot;wx62f PZPZlf x7XAkb&quot;]</value>
+      <webElementGuid>bbf39e7c-cba0-43e2-ade1-c93796bc6d60</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rcnt']/div[2]/div/div/div[3]/div/div/div/div/div/div/div[2]/div</value>
+      <webElementGuid>34c2b0d3-50e2-4c86-89e5-b566a4f2dd94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Japan'])[1]/following::div[2]</value>
+      <webElementGuid>4a20a4d5-58e8-4dd2-8a1c-a4577a3c879c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Share'])[1]/preceding::div[2]</value>
+      <webElementGuid>7d48cbd4-35af-4d88-99f1-e7249ec4ea29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Share'])[2]/preceding::div[5]</value>
+      <webElementGuid>e9f4a2b2-e33e-4f6c-9235-dafb3b4133b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Country in East Asia']/parent::*</value>
+      <webElementGuid>b67eb8c4-7c4b-463c-bd96-e41ed0257fcc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div/div/div[2]/div</value>
+      <webElementGuid>b6adbbe8-4334-4084-a646-757b128605da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Country in East Asia' or . = 'Country in East Asia')]</value>
+      <webElementGuid>1114da96-1219-42b4-b7a7-bc093078b608</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

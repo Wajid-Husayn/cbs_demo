@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+google,Chrome 114.0.0.0,,,2023-07-14 12:19:44,2023-07-14 12:20:11,27.527s,FAILED
+,,,,,,,
+Test Cases/Example/1,Chrome 114.0.0.0,,,2023-07-14 12:19:44,2023-07-14 12:20:01,16.948s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-14 12:19:44,2023-07-14 12:19:47,2.706s,PASSED
+"navigateToUrl(""https://www.google.com.pk/"")",Chrome 114.0.0.0,,,2023-07-14 12:19:47,2023-07-14 12:19:59,11.660s,PASSED
+"setText(findTestObject(""Object Repository/example/Page_Google/textarea__q""), ""pakistan"")",Chrome 114.0.0.0,,,2023-07-14 12:19:59,2023-07-14 12:20:00,1.066s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-14 12:20:00,2023-07-14 12:20:01,1.188s,PASSED
+,,,,,,,
+Test Cases/Example/2,Chrome 114.0.0.0,,,2023-07-14 12:20:01,2023-07-14 12:20:11,10.291s,FAILED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-14 12:20:01,2023-07-14 12:20:02,1.171s,PASSED
+"navigateToUrl(""https://www.google.com.pk/"")",Chrome 114.0.0.0,,,2023-07-14 12:20:02,2023-07-14 12:20:10,7.131s,PASSED
+"setText(findTestObject(""Object Repository/example/Page_Google/textarea__q""), ""japan"")",Chrome 114.0.0.0,,,2023-07-14 12:20:10,2023-07-14 12:20:11,0.939s,PASSED
+"click(findTestObject(""Object Repository/example/Page_Google/input_Delete_btnK""))",Chrome 114.0.0.0,,,2023-07-14 12:20:11,2023-07-14 12:20:11,0.676s,FAILED
