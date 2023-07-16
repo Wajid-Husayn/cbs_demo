@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+google,Chrome 114.0.0.0,,,2023-07-16 22:38:07,2023-07-16 22:38:35,27.095s,FAILED
+,,,,,,,
+Test Cases/Example/1,Chrome 114.0.0.0,,,2023-07-16 22:38:08,2023-07-16 22:38:17,8.994s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-16 22:38:08,2023-07-16 22:38:13,4.435s,PASSED
+"navigateToUrl(""https://www.google.com.pk/"")",Chrome 114.0.0.0,,,2023-07-16 22:38:13,2023-07-16 22:38:15,2.479s,PASSED
+"setText(findTestObject(""Object Repository/example/Page_Google/textarea__q""), ""pakistan"")",Chrome 114.0.0.0,,,2023-07-16 22:38:15,2023-07-16 22:38:16,0.924s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-16 22:38:16,2023-07-16 22:38:17,0.663s,PASSED
+,,,,,,,
+Test Cases/Example/2,Chrome 114.0.0.0,,,2023-07-16 22:38:17,2023-07-16 22:38:30,13.076s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-16 22:38:17,2023-07-16 22:38:19,1.622s,PASSED
+"navigateToUrl(""https://www.google.com.pk/"")",Chrome 114.0.0.0,,,2023-07-16 22:38:19,2023-07-16 22:38:22,3.504s,PASSED
+"setText(findTestObject(""Object Repository/example/Page_Google/textarea__q""), ""japan"")",Chrome 114.0.0.0,,,2023-07-16 22:38:22,2023-07-16 22:38:23,0.880s,PASSED
+"click(findTestObject(""Object Repository/example/Page_Google/input_Delete_btnK""))",Chrome 114.0.0.0,,,2023-07-16 22:38:23,2023-07-16 22:38:24,1.090s,PASSED
+"verifyElementText(findTestObject(""Object Repository/example/Page_japan - Google Search/div_Country in East Asia""), ""Country in East Asia"")",Chrome 114.0.0.0,,,2023-07-16 22:38:24,2023-07-16 22:38:30,5.694s,PASSED
+,,,,,,,
+Test Cases/Example/3,Chrome 114.0.0.0,,,2023-07-16 22:38:30,2023-07-16 22:38:35,4.544s,FAILED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-16 22:38:30,2023-07-16 22:38:32,1.830s,PASSED
+"navigateToUrl(""https://www.guru99.com/"")",Chrome 114.0.0.0,,,2023-07-16 22:38:32,2023-07-16 22:38:34,2.013s,PASSED
+"click(findTestObject(""Object Repository/Page_Meet Guru99  Free Training Tutorials  _4d47e2/a_Home""))",Chrome 114.0.0.0,,,2023-07-16 22:38:34,2023-07-16 22:38:35,0.405s,FAILED
