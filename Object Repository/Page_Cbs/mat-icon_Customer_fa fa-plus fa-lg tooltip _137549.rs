@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>mat-icon_Customer_fa fa-plus fa-lg tooltip _137549</name>
+   <tag></tag>
+   <elementGuidId>d0cec1ed-caed-4759-bd78-49a345e617a9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>mat-icon.fa.fa-plus.fa-lg.tooltip.mat-icon.notranslate.material-icons.mat-icon-no-color</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-root[@id='container']/div/div[3]/mat-sidenav-container/mat-sidenav-content/layout-main-container/layout-side-navigation-container/mat-sidenav-container/mat-sidenav-content/layout-content-canvas/cbs-workspace/div/cbs-customer-query/cbs-query-screen/div/mat-card/mat-card-content/div/mat-toolbar/span[6]/button/span/mat-icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mat-icon</value>
+      <webElementGuid>21f4e3d6-03d7-4902-99d2-794cfbf9a898</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-plus fa-lg tooltip mat-icon notranslate material-icons mat-icon-no-color</value>
+      <webElementGuid>e12f264d-5317-4f7e-8b74-07b3612fe79b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>47f591be-4b75-4fda-bf1c-add2c391d96e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>c160f8f4-f272-4e78-9fd1-af633219bdcf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;container&quot;)/div[@class=&quot;containerX quickSearchSpecial&quot;]/div[@class=&quot;colorNested box quickSearchSpecialMain&quot;]/mat-sidenav-container[@class=&quot;cbs-side-nav-container mat-drawer-container mat-sidenav-container&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content ng-star-inserted&quot;]/layout-main-container[@class=&quot;fullSize&quot;]/layout-side-navigation-container[1]/mat-sidenav-container[@class=&quot;cbs-side-nav-container mat-drawer-container mat-sidenav-container mat-drawer-transition&quot;]/mat-sidenav-content[@class=&quot;cbs-side-nav-sidenav-content mat-drawer-content mat-sidenav-content&quot;]/layout-content-canvas[1]/cbs-workspace[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;width100&quot;]/cbs-customer-query[@class=&quot;ng-star-inserted&quot;]/cbs-query-screen[1]/div[@class=&quot;width100&quot;]/mat-card[@class=&quot;mat-card&quot;]/mat-card-content[@class=&quot;mat-card-content&quot;]/div[@class=&quot;mat-table-container&quot;]/mat-toolbar[@class=&quot;pad-left-sm pad-right-sm mat-toolbar mat-toolbar-single-row&quot;]/span[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;mat-icon-button cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-button-wrapper&quot;]/mat-icon[@class=&quot;fa fa-plus fa-lg tooltip mat-icon notranslate material-icons mat-icon-no-color&quot;]</value>
+      <webElementGuid>0a3e7049-4b2b-418d-ba41-d0c0e1b88d2e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//app-root[@id='container']/div/div[3]/mat-sidenav-container/mat-sidenav-content/layout-main-container/layout-side-navigation-container/mat-sidenav-container/mat-sidenav-content/layout-content-canvas/cbs-workspace/div/cbs-customer-query/cbs-query-screen/div/mat-card/mat-card-content/div/mat-toolbar/span[6]/button/span/mat-icon</value>
+      <webElementGuid>f5d9575f-8e45-4c0b-af6e-7df3a41a69f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[6]/button/span/mat-icon</value>
+      <webElementGuid>ecfe031c-76ab-4a58-a493-e1ed6e0fb78e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

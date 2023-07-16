@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>mat-icon_account_circle_fa fa-sign-out fa-l_30d6a7</name>
+   <tag></tag>
+   <elementGuidId>ae5fa234-905b-46d9-b0d3-a2dd274f0950</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>mat-icon.fa.fa-sign-out.fa-lg.mat-icon.notranslate.material-icons.mat-icon-no-color</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-root[@id='container']/div/div[3]/header/layout-header-app-bar/mat-toolbar/div[4]/button[4]/span/mat-icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mat-icon</value>
+      <webElementGuid>bbd9e458-cb2b-4884-af40-c228ba293cb8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-sign-out fa-lg mat-icon notranslate material-icons mat-icon-no-color</value>
+      <webElementGuid>f3eec46f-c6a4-4578-ae4f-ae364cdc9cb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>f972fae8-ca8a-43d2-bfbf-671211add0ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>05a8e629-e775-41cc-820d-b966fba6713f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;container&quot;)/div[@class=&quot;containerX quickSearchSpecial&quot;]/div[@class=&quot;colorNested box quickSearchSpecialMain&quot;]/header[@class=&quot;ng-star-inserted&quot;]/layout-header-app-bar[1]/mat-toolbar[@class=&quot;main-header mat-toolbar mat-primary mat-toolbar-single-row&quot;]/div[@class=&quot;icon-container&quot;]/button[@class=&quot;mat-icon-button cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-button-wrapper&quot;]/mat-icon[@class=&quot;fa fa-sign-out fa-lg mat-icon notranslate material-icons mat-icon-no-color&quot;]</value>
+      <webElementGuid>cbc14d0b-d555-4975-a383-9196778c2bd5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//app-root[@id='container']/div/div[3]/header/layout-header-app-bar/mat-toolbar/div[4]/button[4]/span/mat-icon</value>
+      <webElementGuid>784e267e-9a68-4c45-8f7f-bf6f16d3ab17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[4]/span/mat-icon</value>
+      <webElementGuid>4347a526-95b4-4518-b0fe-684d6d8d5b09</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

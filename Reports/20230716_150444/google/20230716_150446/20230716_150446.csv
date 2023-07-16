@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+google,Chrome 114.0.0.0,,,2023-07-16 15:04:48,2023-07-16 15:05:18,30.176s,PASSED
+,,,,,,,
+Test Cases/Example/1,Chrome 114.0.0.0,,,2023-07-16 15:04:48,2023-07-16 15:04:55,7.079s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-16 15:04:48,2023-07-16 15:04:51,2.893s,PASSED
+"navigateToUrl(""https://www.google.com.pk/"")",Chrome 114.0.0.0,,,2023-07-16 15:04:51,2023-07-16 15:04:54,2.517s,PASSED
+"setText(findTestObject(""Object Repository/example/Page_Google/textarea__q""), ""pakistan"")",Chrome 114.0.0.0,,,2023-07-16 15:04:54,2023-07-16 15:04:54,0.865s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-16 15:04:54,2023-07-16 15:04:55,0.620s,PASSED
+,,,,,,,
+Test Cases/Example/2,Chrome 114.0.0.0,,,2023-07-16 15:04:55,2023-07-16 15:05:18,22.884s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-16 15:04:55,2023-07-16 15:04:57,1.384s,PASSED
+"navigateToUrl(""https://www.google.com.pk/"")",Chrome 114.0.0.0,,,2023-07-16 15:04:57,2023-07-16 15:05:00,3.676s,PASSED
+"setText(findTestObject(""Object Repository/example/Page_Google/textarea__q""), ""japan"")",Chrome 114.0.0.0,,,2023-07-16 15:05:00,2023-07-16 15:05:02,1.330s,PASSED
+"click(findTestObject(""Object Repository/example/Page_Google/input_Delete_btnK""))",Chrome 114.0.0.0,,,2023-07-16 15:05:02,2023-07-16 15:05:03,1.181s,PASSED
+"verifyElementText(findTestObject(""Object Repository/example/Page_japan - Google Search/div_Country in East Asia""), ""Country in East Asia"")",Chrome 114.0.0.0,,,2023-07-16 15:05:03,2023-07-16 15:05:18,15.124s,PASSED

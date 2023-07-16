@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>mat-icon_new_fa fa-users fa-lg mat-icon not_fd5ea6</name>
+   <tag></tag>
+   <elementGuidId>daffd5fc-ace4-4245-bd82-a34e7f388cf0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>mat-icon.fa.fa-users.fa-lg.mat-icon.notranslate.material-icons.mat-icon-no-color</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-root[@id='container']/div/div[3]/mat-sidenav-container/mat-sidenav-content/layout-header-perspective-bar/mat-toolbar/button[3]/span/mat-icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mat-icon</value>
+      <webElementGuid>09a7ad3c-80ca-4d82-b8e9-87a5f0b3a36c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-users fa-lg mat-icon notranslate material-icons mat-icon-no-color</value>
+      <webElementGuid>609e30d8-6f65-4478-8dbb-f983e15280d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>16bda526-a79e-4564-af4b-9125f2b76fb2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>af2d2761-d495-4230-a77e-be1a48a096b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;container&quot;)/div[@class=&quot;containerX quickSearchSpecial&quot;]/div[@class=&quot;colorNested box quickSearchSpecialMain&quot;]/mat-sidenav-container[@class=&quot;cbs-side-nav-container mat-drawer-container mat-sidenav-container&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content ng-star-inserted&quot;]/layout-header-perspective-bar[1]/mat-toolbar[@class=&quot;mat-toolbar mat-accent mat-toolbar-single-row&quot;]/button[@class=&quot;mat-button ng-star-inserted cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-button-wrapper&quot;]/mat-icon[@class=&quot;fa fa-users fa-lg mat-icon notranslate material-icons mat-icon-no-color&quot;]</value>
+      <webElementGuid>92bb84a5-9088-4189-bea9-b83bbbbdb917</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//app-root[@id='container']/div/div[3]/mat-sidenav-container/mat-sidenav-content/layout-header-perspective-bar/mat-toolbar/button[3]/span/mat-icon</value>
+      <webElementGuid>e69c650f-975f-4e0b-b9a8-890fd4bdc8cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[3]/span/mat-icon</value>
+      <webElementGuid>6040a98d-f922-46b8-8e51-cc6c070fb1af</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

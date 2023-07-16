@@ -6,12 +6,12 @@
    <elementGuidId>eb1d2951-b0fc-435d-8d58-028bf46098db</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-0']/cbs-message-dialog/mat-dialog-actions/p</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>p.fsize22</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Start Serving Customers']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

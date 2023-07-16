@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_INDIVIDUALIndividual</name>
+   <tag></tag>
+   <elementGuidId>75992f9c-ea71-4ac6-aeb0-604414cb77c4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-option-117 > span.mat-option-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = ' INDIVIDUAL~Individual ' or . = ' INDIVIDUAL~Individual ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>0992dcee-aa23-48b1-8c40-6fe984045f7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-option-text</value>
+      <webElementGuid>14006f92-aaef-4e3f-969d-3d6e369a4c0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> INDIVIDUAL~Individual </value>
+      <webElementGuid>1fccafa1-bcd0-4a0d-bb34-ae1361d5c334</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-option-117&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
+      <webElementGuid>1c1f065d-02e9-433c-ae58-33aa8c50637c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-option[@id='mat-option-117']/span</value>
+      <webElementGuid>655d110d-3e01-4f6c-a67a-076718ef9362</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GOVERNMENT~Government'])[1]/following::span[1]</value>
+      <webElementGuid>43115c38-def2-4c18-91e6-ec68c260a9c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EMPLOYEE~Employee'])[1]/following::span[2]</value>
+      <webElementGuid>7132421b-f4b8-43a2-b1e7-17f1cdc73c80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='INDVL~Individual Category for API Demo'])[1]/preceding::span[1]</value>
+      <webElementGuid>bc911349-a73f-4263-a465-d193b87e1b51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='INSURANCE~Insurance'])[1]/preceding::span[2]</value>
+      <webElementGuid>f7fa13ad-1ae4-48cc-9744-6649639759c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='INDIVIDUAL~Individual']/parent::*</value>
+      <webElementGuid>c9cb2679-fc7e-4e32-9c15-51082a462253</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-option[7]/span</value>
+      <webElementGuid>81b81338-8c80-404a-8f0b-ad9157db8ab3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' INDIVIDUAL~Individual ' or . = ' INDIVIDUAL~Individual ')]</value>
+      <webElementGuid>e1cca4d1-6e74-4215-978c-3bdbeb8d3402</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

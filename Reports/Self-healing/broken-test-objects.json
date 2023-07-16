@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Cbs/mat-card-content_Customer Type  Description_781eeb",
+      "brokenLocator": "//mat-dialog-container[@id\u003d\u0027mat-dialog-2\u0027]/cbs-lov-dialog/mat-dialog-content/cbs-query-list/mat-card/mat-card-content",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Select Filter:\u0027])[2]/following::mat-card-content[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Cbs/mat-card-content_Customer Type  Description_781eeb_neighbor.png"
+    }
+  ]
 }

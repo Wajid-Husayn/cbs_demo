@@ -19,25 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://192.168.8.33:7003/cbs9/login.html')
+WebUI.navigateToUrl('https://www.guru99.com/')
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Object Repository/Page_Meet Guru99  Free Training Tutorials  _4d47e2/a_Home'))
 
-WebUI.click(findTestObject('Page_Silverlake Symmetri CBS9/input_Faysal Bank Limited_j_username'))
+WebUI.click(findTestObject('Object Repository/Page_Meet Guru99  Free Training Tutorials  _4d47e2/svg_Expand'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Silverlake Symmetri CBS9/input_Faysal Bank Limited_j_username'), 'cbs.user1')
+WebUI.click(findTestObject('Object Repository/Page_Meet Guru99  Free Training Tutorials  _4d47e2/a_Software Testing'))
 
-WebUI.click(findTestObject('Page_Silverlake Symmetri CBS9/input_Username_j_password'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Silverlake Symmetri CBS9/input_Username_j_password'), 'Go4mjZEPWYNpMeH1G75+Qw==')
-
-WebUI.click(findTestObject('Object Repository/Page_Silverlake Symmetri CBS9/span_Login'))
-
-//WebUI.verifyElementText(findTestObject('Object Repository/Page_Cbs/h2_Welcome User1'), 'Welcome User1')
-
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Cbs/p_Start Serving Customers'), 60)
-
-WebUI.click(findTestObject('Object Repository/Page_Cbs/p_Start Serving Customers'))
-
-//WebUI.closeBrowser()
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Software Testing Tutorial/h2_What should I know'), 'What should I know?')
 

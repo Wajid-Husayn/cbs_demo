@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>mat-icon_State of Residence_fa fa-search ma_67d744</name>
+   <tag></tag>
+   <elementGuidId>ffd81b93-6f60-4e46-a930-81bb7df20ca8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-icon-button.ng-star-inserted.cdk-focused.cdk-mouse-focused > span.mat-button-wrapper > mat-icon.fa.fa-search.mat-icon.notranslate.material-icons.mat-icon-no-color</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ui-tabpanel-0']/dynamic-form/form/div/form-lov[3]/div/mat-form-field/div/div/div[2]/button/span/mat-icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mat-icon</value>
+      <webElementGuid>00161be4-0ffc-4eab-aeb9-cd5bcb58fcdc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-search mat-icon notranslate material-icons mat-icon-no-color</value>
+      <webElementGuid>fe952c30-d149-4c52-8132-df5a23a8aabb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>de65c678-4049-4034-821a-15bde0e6f6bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>87e8acee-0751-4881-a1de-3706b6d61ccb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ui-tabpanel-0&quot;)/dynamic-form[1]/form[@class=&quot;dynamic-form md-inline-form ng-touched ng-dirty ng-invalid&quot;]/div[@class=&quot;four-col&quot;]/form-lov[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;dynamic-field form-lov ng-touched ng-dirty ng-invalid&quot;]/mat-form-field[@class=&quot;mat-form-field ng-tns-c1-145 mat-primary mat-form-field-type-mat-input mat-form-field-appearance-standard mat-form-field-can-float mat-form-field-has-label ng-untouched mat-form-field-should-float ng-dirty ng-invalid&quot;]/div[@class=&quot;mat-form-field-wrapper&quot;]/div[@class=&quot;mat-form-field-flex&quot;]/div[@class=&quot;mat-form-field-suffix ng-tns-c1-145 ng-star-inserted&quot;]/button[@class=&quot;mat-icon-button ng-star-inserted cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-button-wrapper&quot;]/mat-icon[@class=&quot;fa fa-search mat-icon notranslate material-icons mat-icon-no-color&quot;]</value>
+      <webElementGuid>80bc2071-34d4-4be5-b435-2b80945bb272</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ui-tabpanel-0']/dynamic-form/form/div/form-lov[3]/div/mat-form-field/div/div/div[2]/button/span/mat-icon</value>
+      <webElementGuid>a36a06a7-9e70-4fdc-aaf9-4822885c676f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form-lov[3]/div/mat-form-field/div/div/div[2]/button/span/mat-icon</value>
+      <webElementGuid>f7dde293-4306-4874-8262-743773b5ff14</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
